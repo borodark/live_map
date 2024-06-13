@@ -5,9 +5,9 @@ defmodule LiveMapsWeb.PageLive do
   def mount(_params, _session, socket) do
     {:ok,
      socket
-     |> assign(:latitude, 10.4197639)
-     |> assign(:longitude, 107.1070841)
-     |> assign(:zoom, 11)
+     |> assign(:latitude,  37.7874905)
+     |> assign(:longitude, -122.4078544)
+     |> assign(:zoom, 14)
     }
   end
 
