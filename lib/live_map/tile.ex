@@ -142,7 +142,7 @@ defmodule LiveMap.Tile do
       85.0511287798066
 
       iex> Tile.latitude(22923, 16)
-      47.476375797209336
+      47.47637579720934
   """
   @spec latitude(y(), zoom()) :: latitude()
   def latitude(y, zoom) do

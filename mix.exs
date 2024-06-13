@@ -8,7 +8,7 @@ defmodule LiveMap.MixProject do
     [
       app: :live_map,
       version: @version,
-      elixir: "~> 1.12",
+      elixir: "~> 1.14",
       elixirc_paths: elixirc_paths(Mix.env()),
       start_permanent: Mix.env() == :prod,
       escript: escript(),
@@ -74,7 +74,7 @@ defmodule LiveMap.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:phoenix_live_view, "~> 0.17.5"},
+      {:phoenix_live_view, "~> 0.20"},
       {:jason, "~> 1.2"},
 
       # Test/dev deps
